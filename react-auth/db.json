@@ -1,44 +1,58 @@
 {
-    "users": [],
-    "products": [
-        {
-            "id": 2,
-            "descricao": "Vestido Longo Verde Oliva com Mangas",
-            "imagem": "https://static3.tcdn.com.br/img/img_prod/769840/vestido_gianne_8397_1_820efb28610d75494dc08723c4dadf70.jpg",
-            "preco": 225.90
-        },
-        {
-            "id": 3,
-            "descricao": "Vestido Longo Bordado Verde",
-            "imagem": "https://images.tcdn.com.br/img/img_prod/699026/vestido_longo_bordado_verde_1275_2_bd89dd0d86bd725b69691bc15909d400.jpg",
-            "preco": 225.90
-        },
-        {
-            "id": 4,
-            "descricao": "Vestido Longo Preto",
-            "imagem": "https://26985.cdn.simplo7.net/static/26985/sku/vestido-longo-vestido-longo-grace-preto--p-1630247378960.jpg",
-            "preco": 225.90
-        },
-        {
-            "id": 5,
-            "descricao": "Vestido Longo Decotado Marsala",
-            "imagem": "https://www.vitrineoutlet.com.br/media/catalog/product/cache/1/image/0dc2d03fe217f8c83829496872af24a0/v/e/vestido_longo_decotado_short_fenda_vinho_-_pv338_3__1.jpg",
-            "preco": 225.90
-        },
-        {
-            "id": 6,
-            "descricao": "Vestido Midi Rodado",
-            "imagem": "https://img.elo7.com.br/product/original/34BAE2C/vestido-evangelico-midi-rodado-em-renda-lese-moda-evangelica-vestidoevangelico-vestidomidi-vestidoro.jpg",
-            "preco": 225.90
-        },
-        {
-            "id": 7,
-            "descricao": "Vestido Longo Ciganinha",
-            "imagem": "https://a-static.mlcdn.com.br/800x560/vestido-feminino-longo-ciganinha-com-lastex-dineia-cintra/dineiacintra/0101-va-un/35b86d9b7c6998b83ebf48f38186d7a2.jpg",
-            "preco": 225.90
-        }
-    
-    
-    
-    ]
+  "users": [
+    {
+      "email": "idilenebrito@gmail.com",
+      "password": "$2a$10$FpXaKfpZWEpm6a9p8Mrw8uVXE1lkGAxsr3aboCmaVabbEgmsQijUq",
+      "id": 1
+    },
+    {
+      "email": "naoautorizado@gmail.com",
+      "password": "$2a$10$CF/7np4Eim7fCJUscWoF4.sj9UbQBVnaN61TNdKl6SISQtG4mjayG",
+      "id": 2
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "descricao": "Cosméticos variádos",
+      "imagem": "https://st.depositphotos.com/1000260/2221/i/600/depositphotos_22213575-stock-photo-decorative-cosmetics-for-makeup.jpg",
+      "preco": 25.6
+    },
+    {
+      "id": 2,
+      "descricao": "Vestido Longo Verde Oliva com Mangas",
+      "imagem": "https://static3.tcdn.com.br/img/img_prod/769840/vestido_gianne_8397_1_820efb28610d75494dc08723c4dadf70.jpg",
+      "preco": 225.9
+    },
+    {
+      "id": 3,
+      "descricao": "Vestido Longo Bordado Verde",
+      "imagem": "https://images.tcdn.com.br/img/img_prod/699026/vestido_longo_bordado_verde_1275_2_bd89dd0d86bd725b69691bc15909d400.jpg",
+      "preco": 225.9
+    },
+    {
+      "id": 4,
+      "descricao": "Vestido Longo Preto",
+      "imagem": "https://26985.cdn.simplo7.net/static/26985/sku/vestido-longo-vestido-longo-grace-preto--p-1630247378960.jpg",
+      "preco": 225.9
+    },
+    {
+      "id": 5,
+      "descricao": "Vestido Longo Decotado Marsala",
+      "imagem": "https://www.vitrineoutlet.com.br/media/catalog/product/cache/1/image/0dc2d03fe217f8c83829496872af24a0/v/e/vestido_longo_decotado_short_fenda_vinho_-_pv338_3__1.jpg",
+      "preco": 225.9
+    },
+    {
+      "id": 6,
+      "descricao": "Vestido Midi Rodado",
+      "imagem": "https://img.elo7.com.br/product/original/34BAE2C/vestido-evangelico-midi-rodado-em-renda-lese-moda-evangelica-vestidoevangelico-vestidomidi-vestidoro.jpg",
+      "preco": 225.9
+    },
+    {
+      "id": 7,
+      "descricao": "Vestido Longo Ciganinha",
+      "imagem": "https://a-static.mlcdn.com.br/800x560/vestido-feminino-longo-ciganinha-com-lastex-dineia-cintra/dineiacintra/0101-va-un/35b86d9b7c6998b83ebf48f38186d7a2.jpg",
+      "preco": 225.9
+    }
+  ]
 }

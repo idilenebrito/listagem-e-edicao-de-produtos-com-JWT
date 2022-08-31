@@ -1,6 +1,6 @@
 /* eslint-disable prettier/prettier */
-import { useEffect, useState } from 'react';
-import { putProdutos } from '../../services/api';
+// import { useEffect, useState } from 'react';
+// import { putProdutos } from '../../services/api';
 import CustomCardItem from './CustomCardItem';
 import * as Style from './style';
 

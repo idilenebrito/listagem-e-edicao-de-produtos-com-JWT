@@ -17,20 +17,16 @@ function LoginAuth({ children }) {
       })
       .catch(() => {
         alert('Usuario não cadastrado');
-        navigate('/signup');
       });
     if (route == '/login') {
       localStorage.setItem('token', JSON.stringify(accessToken));
       api.defaults.headers.authorization = `Bearer ${accessToken}`;
       setAuthenticated(true);
       const {
-        data: { profissao, username, website, cidade },
+        data: { email },
       } = await api.get(`/users/${user.id}`);
       setUserProfileData({
-        name: username,
-        profissao: profissao,
-        cidade: cidade,
-        website: website,
+        email: email,
       });
       console.log('userProfileData', userProfileData);
       navigate('/edicao-produto');
